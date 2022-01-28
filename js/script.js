@@ -56,8 +56,8 @@ function calculateWork() {
     if (values.qa) {
         totalPrice = totalPrice + workTypes.qa;
     }
-    const totlaPriceEl = document.querySelector('#total-price');
-    totlaPriceEl.textContent = totalPrice;
+    const totalPriceEl = document.querySelector('#total-price');
+    totalPriceEl.textContent = totalPrice;
     console.log(totalPrice)
 }
 const formEl = document.querySelector('#project-price-form');
@@ -73,8 +73,8 @@ formEl.addEventListener('submit', function (event) {
 
 const closeButtons = document.querySelectorAll('.modal-close-button');
 
-closeButtons.forEach(function (closebuton) {
-    closebuton.addEventListener('click', function () {
+closeButtons.forEach(function (closebutton) {
+    closebutton.addEventListener('click', function () {
         const inputContainer = document.querySelector('#email-input-container');
         inputContainer.classList.remove('email-input-container-error');
 
