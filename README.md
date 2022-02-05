@@ -7,6 +7,7 @@
 ![CSS](https://img.shields.io/badge/CSS-important)
 ![JS](https://img.shields.io/badge/JS-yellow)
 ![Docker Automated build](https://img.shields.io/docker/automated/peperd/html-server-landing-page?style=plastic&logo=Docker)
+![Black](https://img.shields.io/badge/code_style-black-black)
 
 ## Agenda
 
